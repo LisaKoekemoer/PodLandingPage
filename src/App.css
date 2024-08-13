@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Chivo", sans-serif;
+  background-color: #121725;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pod-logo {
+  margin-top: 75px;
+  margin-left: 150px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-content {
+  position: absolute;
+  top: 100px;
+  left: 150px;
   display: flex;
-  flex-direction: column;
+}
+
+.product-info {
+  position: relative;
+  top: 131px;
+  z-index: 1;
+  width: 723px;
+  height: 509px;
+  background-color: #121725fd;
+}
+
+.product-info h1 {
+  font-size: 52px;
+  font-weight: 300;
+  color: #54E6AF;
+  text-transform: uppercase;
+  margin-top: 80px;
+}
+
+.product-info span {
+  color: #FFFFFF;
+}
+
+.product-info p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #C2CBE5;
+  width: 445px;
+  margin-top: -10px;
+}
+
+.access {
+  margin-top: 60px;
+}
+
+.access input {
+  width: 427px;
+  height: 56px;
+  border: none;
+  border-radius: 35px;
+  background-color: #2C344B;
+}
+
+.access input::placeholder {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffffa9;
+  font-family: "Chivo", sans-serif;
+  padding-left: 30px;
+}
+
+.access button {
+  position: relative;
+  top: 0.5px;
+  left: -167px;
+  width: 162px;
+  height: 46px;
+  background-color: #54E6AF;
+  font-size: 14px;
+  font-weight: bold;
+  color: #121725;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.access button:hover {
+  background-color: #B3FFE2;
+}
+
+.socials {
+  width: 536px;
+  height: 29px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+.spotify {
+  width: 96px;
+  height: 29px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.apple {
+  width: 78px;
+  height: 29px;
+}
+
+.google {
+  width: 125px;
+  height: 18px;
+}
+
+.pCasts {
+  width: 129px;
+  height: 26px;
+}
+
+.host-img {
+  position: relative;
+  left: -340px;
+  width: 888px;
+  height: 640px;
+}
+
+.bg-Pattern {
+  z-index: 2;
+  position: absolute;
+  top: 690px;
+  left: 1193px;
+}
+
+.error {
+  font-size: 12px;
+  font-weight: bold;
+  color: #FB3E3E;
+  margin-top: 10px;
+  margin-left: 15px;
 }
