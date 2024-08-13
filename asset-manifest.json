@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/PodLandingPage/static/css/main.95063632.css",
+    "main.js": "/PodLandingPage/static/js/main.d2c59b59.js",
+    "static/js/453.40d23148.chunk.js": "/PodLandingPage/static/js/453.40d23148.chunk.js",
+    "static/media/image-host.jpg": "/PodLandingPage/static/media/image-host.1be1435679e9d16319ad.jpg",
+    "static/media/google-podcasts.svg": "/PodLandingPage/static/media/google-podcasts.e91a57f8f2ae7555677a6fc24a2272c7.svg",
+    "static/media/apple-podcast.svg": "/PodLandingPage/static/media/apple-podcast.d1854182034693ff7c690be3f5cee4ed.svg",
+    "static/media/pocket-casts.svg": "/PodLandingPage/static/media/pocket-casts.8beb87ad75e676103606fd1864e1a371.svg",
+    "static/media/spotify.svg": "/PodLandingPage/static/media/spotify.8686bae67603e34bc2bc634fb219d14f.svg",
+    "static/media/logo.svg": "/PodLandingPage/static/media/logo.f47677a643c79f406a3c9655e21c58b6.svg",
+    "index.html": "/PodLandingPage/index.html",
+    "static/media/bg-pattern-dots.svg": "/PodLandingPage/static/media/bg-pattern-dots.a2597e7c189c706f735b91fcfeacc326.svg",
+    "main.95063632.css.map": "/PodLandingPage/static/css/main.95063632.css.map",
+    "main.d2c59b59.js.map": "/PodLandingPage/static/js/main.d2c59b59.js.map",
+    "453.40d23148.chunk.js.map": "/PodLandingPage/static/js/453.40d23148.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95063632.css",
+    "static/js/main.d2c59b59.js"
+  ]
+}
